@@ -172,20 +172,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
-    <ClCompile Include="Assets.cpp" />
     <ClCompile Include="Config.cpp" />
-    <ClCompile Include="GameStateManager.cpp" />
-    <ClCompile Include="IGameObject.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="math\vectors.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h" />
-    <ClInclude Include="Assets.h" />
     <ClInclude Include="Config.h" />
-    <ClInclude Include="GameStateManager.h" />
-    <ClInclude Include="ICollider.h" />
-    <ClInclude Include="IGameObject.h" />
-    <ClInclude Include="IGameState.h" />
+    <ClInclude Include="math\vectors.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

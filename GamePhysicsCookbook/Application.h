@@ -1,7 +1,5 @@
 #pragma once
 
-class GameStateManager;
-
 class Application
 {
 public:
@@ -17,7 +15,5 @@ private:
 	void Update(float _dt);
 	void Draw();
 	void OnDestroy();
-
-	GameStateManager* m_gameStateManager;
 
 };
