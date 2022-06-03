@@ -27,6 +27,9 @@
     <ClCompile Include="math\vectors.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="math\matrices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h">
@@ -36,6 +39,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="math\vectors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="math\matrices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="math\math.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

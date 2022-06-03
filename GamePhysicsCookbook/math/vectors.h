@@ -1,10 +1,6 @@
 #pragma once
 
-#define ABSOLUTE(x, y) (fabsf(x-y) <= FLT_EPSILON)
-#define RELATIVE(x, y) (fabsf(x-y) <= FLT_EPSILON * fmaxf(fabsf(x), fabsf(y)))
-
-#define RAD2DEG(x) ((x) * 57.295754f)
-#define DEG2RAD(x) ((x) * 0.0174533f)
+#include <raylib.h>
 
 typedef struct vec2
 {
@@ -26,6 +22,8 @@ typedef struct vec2
 
 	vec2() : x(0.0f), y(0.0f) { }
 	vec2(float _x, float _y) : x(_x), y(_y) { }
+
+	explicit operator Vector2() const { return Vector2{ x, y }; }
 
 } vec2;
 
@@ -50,6 +48,8 @@ typedef struct vec3
 
 	vec3() : x(0.0f), y(0.0f), z(0.0f) { }
 	vec3(float _x, float _y, float _z) : x(_x), y(_y), z(_z) { }
+
+	explicit operator Vector3() const { return Vector3{ x, y, z }; }
 
 } vec3;
 

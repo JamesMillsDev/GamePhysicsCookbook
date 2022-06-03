@@ -175,11 +175,14 @@
     <ClCompile Include="Config.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="math\vectors.cpp" />
+    <ClCompile Include="math\matrices.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h" />
     <ClInclude Include="Config.h" />
+    <ClInclude Include="math\math.h" />
     <ClInclude Include="math\vectors.h" />
+    <ClInclude Include="math\matrices.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

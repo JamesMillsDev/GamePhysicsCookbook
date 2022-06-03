@@ -3,7 +3,7 @@
 #include <cmath>
 #include <cfloat>
 
-#define CMP(x, y) (fabsf(x-y) <= FLT_EPSILON * fmaxf(1.0f, fmaxf(fabsf(x), fabsf(y))))
+#include "math.h"
 
 vec2 operator+(const vec2& _lhs, const vec2& _rhs)
 {
